@@ -3,6 +3,7 @@
 :root {
     --text-color:#333333;
     --brand-color:#C20F2F;
+    --sub-color:#3B3230;
 
     --grayscale01:#777777;
     --grayscale02:#888888;
@@ -631,9 +632,9 @@
 
             /* item03 */
             .grid-container #item03 {
-                background-image: url(image/New-App/New-App.jpg);
+                background-image: url(image/app.png);
                 background-position: center;
-                background-size: 500%;
+                background-size: 100%;
                 position: relative;
 
                 grid-column-start:4;
@@ -648,7 +649,7 @@
             }
 
             #item03:hover {
-                background-size: 600%;
+                background-size: 120%;
             }
 
                 #item03 > .black {
@@ -761,7 +762,7 @@
 
             /* item05 */
             .grid-container #item05 {
-                background-image: url(image/Brand.jpg);
+                background-image: url(image/brand.jpg);
                 background-position: center 324px;
                 background-size: 100%;
                 position: relative;
@@ -810,7 +811,7 @@
 footer {
     margin-top: 160px;
     width: 100%;
-    background-color: #3B3230;
+    background-color: var(--sub-color);
 }
 
     footer .contents-frame {
